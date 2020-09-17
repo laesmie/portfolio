@@ -31,13 +31,6 @@ header, footer, footer a {
     border-radius: 10px;
 }
 
-header img {
-    width: 100px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0.3px 0.3px 4px #ff1493;
-}
-
 footer {
     font-size: 14px;
 }
