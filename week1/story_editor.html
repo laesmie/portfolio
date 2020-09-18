@@ -7,16 +7,24 @@
   </script>
 
   <style>
-
+      textarea {
+          width: 800px;
+          height: 250px;
+          background-color: lightyellow;
+      }
   </style>
 </head>
 
 <body>
     <h1>Story Editor</h1>
     Story Name: <input id=name_input></input>
-    <button onclick="loadStory()">Find and Edit it</button>
-    <button onclick="saveStory()">Save it</button>
-    <button onclick="displayStory()">Display it</button>
+    <section>
+        <button onclick="loadStory()">Find and Edit it</button>
+        <button onclick="saveStory()">Save it</button>
+        <button onclick="displayStory()">Display it</button>
+    </section>
     <textarea id="story_editory" placeholder="Write a totally awesome story here."></textarea>
+
+    <section id="story_display"></section>
 </body>
 </html>
